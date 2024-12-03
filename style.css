@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+h1 {
+  color: #8e26c0;
+  font-family: "JetBrains Mono";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#chance {
+  color: #f00;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 565px;
+  padding: 24px 40px;
+  align-items: center;
+  gap: 10px;
+  background: #ffe8e8;
+}
+
+#advantage {
+  color: #85647b;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 1023px;
+  padding: 24px 40px;
+  align-items: center;
+  gap: 10px;
+  border-right: 6px solid #05f;
+  border-top: 2px solid #00c76e;
+  border-bottom: 2px solid #7f56d9;
+  border-left: 4px solid #c11574;
+}
+
+#season {
+  color: #414651;
+  text-align: center;
+  font-family: Lato;
+  font-size: 32px;
+  background: #ffe8e8;
+  width: 1023px;
+  padding: 24px 40px;
+  border: 2px solid #3538cd;
+}
+
+#season span {
+  color: #ff4405;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+#opportunity {
+  flex: 1 0 0;
+  color: #0064ce;
+  text-align: right;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 2px solid #3538cd;
+  display: flex;
+  width: 1069px;
+  padding: 24px 40px;
+  align-items: center;
+  gap: 10px;
+}
+
+image {
+  width: 556px;
+  height: 347px;
+  flex-shrink: 0;
+}
